@@ -1,3 +1,9 @@
 https://www.thepythoncode.com/article/using-speech-recognition-to-convert-speech-to-text-python
 
 above link for speech_to_text
+
+https://www.tensorflow.org/hub/tutorials
+
+above link for tensorflow tutorials
+
+(Spice on TensorFlow for Pitch Analysis)
