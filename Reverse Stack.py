@@ -1,10 +1,25 @@
-st=list(map(int,input().split()))
-l=""
-for i in st:
-    l+=str(i)
-rl=l[::-1]
-h=[]
-for i in rl:
-    h.append(int(i))
+from typing import List
 
-print(h)
+
+class Solution:
+    def reverse(self, st):
+        # code here
+        h = []
+        h = st[::-1]
+        st.clear()
+        for i in h:
+            st.append(i)
+
+
+# {
+# Driver Code Starts
+
+# Initial Template for Python 3
+
+
+for _ in range(int(input())):
+    N = int(input())
+    St = list(map(int, input().split()))
+    ob = Solution()
+    ob.reverse(St)
+    print(*St)
